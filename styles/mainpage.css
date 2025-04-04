@@ -1,0 +1,33 @@
+body{
+    background-image:url(instrument.jpg) ;
+    background-size: cover;
+} 
+
+.button-group button{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-left:800px;
+    width: 500px;
+    height: 100px;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: wavy;
+    display: block;
+}
+#button1{
+    background-color:crimson;
+}
+#button2{
+    background-color:cadetblue;
+}
+#button3{
+    background-color:darkolivegreen;
+}
+#button4{
+    background-color:darkslateblue;
+}
+
+a{
+    text-decoration: none;
+}
